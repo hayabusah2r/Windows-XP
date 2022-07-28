@@ -1,0 +1,359 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #008284;
+    font-family: sans-serif;
+}
+
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: visible;
+    background: #000 url('images/xp-windows.gif') no-repeat center center;
+    background-size: contain;
+}
+
+#content #computer{
+    cursor: pointer;
+    width: 2%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+#content #computer-h2{
+    color: rgb(196, 196, 196);
+    margin-top: 1px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+#content #computer-h2 a{
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+}
+
+#content #recycle{
+    cursor: pointer;
+    width: 2%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+#content #recycle-h2{
+    color: rgb(196, 196, 196);
+    margin-top: 1px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+#content #recycle-h2 a{
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+}
+
+#content #internet{
+    cursor: pointer;
+    width: 2%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+#content #internet-h2{
+    color: rgb(196, 196, 196);
+    margin-top: 1px;
+    margin-left: 18px;
+    font-size: 15px;
+}
+#content #internet-h2 a{
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+}
+
+    #content #folder{
+        cursor: pointer;
+        width: 2%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #content #folder-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    #content #folder-h2 a{
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+    }
+
+    #content #mine{
+        cursor: pointer;
+        width: 2%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #content #mine-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 25px;
+        font-size: 15px;
+    }
+    #content #mine-h2 a{
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+    }
+    #content #freecell{
+        cursor: pointer;
+        width: 2%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #content #freecell-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    #content #freecell-h2 a{
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+    }
+    #content #calendar{
+        cursor: pointer;
+        width: 2%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #content #calendar-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    #content #calendar-h2 a{
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+    }
+
+@media only screen and (max-width: 768px) {
+    #content #computer{
+        width: 10%;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    #content #computer-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    #content #computer-h2 a{
+        text-decoration: none;
+        color: rgb(196, 196, 196);
+    }
+    #content #recycle{
+        width: 10%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #content #recycle-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    #content #recycle-h2 a{
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+    }
+    #content #internet{
+        width: 10%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #content #internet-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 18px;
+        font-size: 15px;
+    }
+    #content #internet-h2 a{
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+    }
+    #content #folder{
+        width: 10%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #content #folder-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    #content #folder-h2 a{
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+    }
+    #content #mine{
+        width: 10%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #content #mine-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 25px;
+        font-size: 15px;
+    }
+    #content #mine-h2 a{
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+    }
+    #content #freecell{
+        width: 10%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #content #freecell-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    #content #freecell-h2 a{
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+    }
+    #content #calendar{
+        width: 10%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #content #calendar-h2{
+        color: rgb(196, 196, 196);
+        margin-top: 1px;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    #content #calendar-h2 a{
+        color: rgb(196, 196, 196);
+        text-decoration: none;
+    }
+}
+
+/*Popup Experiment*/
+.show-btn{
+    background: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3498db;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  .show-btn, .container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  .container{
+    display: none;
+    background: #fff;
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  #show:checked ~ .container{
+    display: block;
+  }
+  .container .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .container .close-btn:hover{
+    color: #3498db;
+  }
+  .container .text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .container form{
+    margin-top: -20px;
+  }
+  .container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+  }
+  form .data label{
+    font-size: 18px;
+  }
+  form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+  }
+  form .data input:focus{
+    border-color: #3498db;
+    border-bottom-width: 2px;
+  }
+  form .forgot-pass{
+    margin-top: -8px;
+  }
+  form .forgot-pass a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  form .forgot-pass a:hover{
+    text-decoration: underline;
+  }
+  form .btn{
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  form .btn .inner{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    transition: all 0.4s;
+  }
+  form .btn:hover .inner{
+    left: 0;
+  }
+  form .btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  form .signup-link{
+    text-align: center;
+  }
+  form .signup-link a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  form .signup-link a:hover{
+    text-decoration: underline;
+  }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Windows XP - Made by Seaam</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!--Loader-->
+    <div id="loader">
+    </div>
+    <!--Content-->
+    <div id="content">
+        <img src="icons/shell_window2.png" id="computer">
+        <h2 id="computer-h2"><a href="images/computer.jpg" target="_blank">Computer</a></h2>
+        <img src="icons/recycle_bin_full-2.png" id="recycle">
+        <h2 id="recycle-h2"><a href="images/recycle.png" target="_blank">Recycle</a></h2>
+        <img src="icons/world-4.png" id="internet">
+        <h2 id="internet-h2"><a href="https://www.google.com" target="_blank">Internet</a></h2>
+        <img src="icons/directory_open_cool-0.png" id="folder">
+        <h2 id="folder-h2"><a href="images/downloads.jpg" target="_blank">Downloads</a></h2>
+        <img src="icons/game_mine_1-0.png" id="mine">
+        <h2 id="mine-h2"><a href="https://minesweeper.online/new-game" target="_blank">Mines <br> weeper</a></h2>
+        <img src="icons/game_freecell-2.png" id="freecell">
+        <h2 id="freecell-h2"><a href="https://cardgames.io/freecell/" target="_blank">Freecell</a></h2>
+        <img src="icons/calendar-0.png" id="calendar">
+        <h2 id="calendar-h2"><a href="images/win98-1-1.png" target="_blank">Calendar</a></h2>
+    </div>    
+
+<!--Loader JS-->
+    <script type="text/javascript">
+
+        var loader;
+        function loadNow(opacity) {
+            if(opacity <= 0) {
+                displayContent();
+            }
+            else {
+                loader.style.opacity = opacity;
+                window.setTimeout(function() {
+                    loadNow(opacity - 1.5)
+                }, 5000);
+            }
+        }
+
+        function displayContent() {
+            loader.style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+        
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            loader = document.getElementById('loader');
+            loadNow(1);
+        });
+    </script>    
+</body>
+</html>
